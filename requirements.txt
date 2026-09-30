@@ -1,0 +1,8 @@
+# Official Google Gen AI SDK. Python 3.10+ recommended.
+google-genai>=1.0.0,<2.0.0
+python-dotenv>=1.0.0,<2.0.0
+speechmatics-batch>=0.5.0,<1.0.0
+
+# ffmpeg is a separate system tool, needed for --chunk-minutes.
+# QwenCleo and its CUDA-enabled PyTorch build are installed separately by
+# install_qwencleo.ps1 into .venv-qwencleo.

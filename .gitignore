@@ -1,0 +1,25 @@
+# Local API keys; keep only the empty example in Git.
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files.
+.venv/
+.venv-qwencleo/
+venv/
+__pycache__/
+*.py[cod]
+
+# Meeting recordings and transcript output.
+*.mp4
+*.mp3
+*.m4a
+*.wav
+*.aac
+*.flac
+*.ogg
+*.webm
+*.mov
+*.mkv
+*.txt
+!requirements.txt
